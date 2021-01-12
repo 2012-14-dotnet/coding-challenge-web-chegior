@@ -1,0 +1,44 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: space-around;
+}
+
+.layoutMain{
+    display: flex;
+    flex-direction: row;
+}
+.Menu {
+    display: flex;
+    flex-direction:column;
+}
+
+Main{
+    display:flex;
+    flex-direction: column;
+}
+.top-section{
+    display:flex;
+    flex-direction: column;
+}
+.bottom-section{
+    display:flex;
+    flex-direction: column;
+}
+.table {
+    display: flex;
+    flex-direction: column;
+
+}
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
