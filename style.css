@@ -11,11 +11,15 @@
 }
 .Menu {
     display: flex;
+    flex:1;
     flex-direction:column;
+    justify-content:flex-start;
+    align-items: center;
 }
 
 Main{
     display:flex;
+    flex:3;
     flex-direction: column;
 }
 .top-section{
@@ -25,15 +29,23 @@ Main{
 .bottom-section{
     display:flex;
     flex-direction: column;
+    align-items: center;
+    
 }
+
 .table {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
 
 }
 .row {
     display: flex;
     flex-direction: row;
+    
+    
 
 }
 
@@ -41,4 +53,9 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.red{
+    color:red;
+    
 }
